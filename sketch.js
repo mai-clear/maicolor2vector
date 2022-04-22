@@ -15,7 +15,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 600, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
   background(0);
   colorMode(HSB, 100)
   input = createInput( );
